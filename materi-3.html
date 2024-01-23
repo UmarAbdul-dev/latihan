@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materi 3</title>
+</head>
+<body>
+  
+  <form action="proses.php" method="POST">
+    <ul>
+      <li>
+        <input type="text" name="user" placeholder="masukkan username ...">
+      </li>
+      <li>
+        <input type="password" name="pass" placeholder="masukkan password ...">
+      </li>
+      <li>
+        <input type="email" name="email" placeholder="masukkan email ...">
+      </li>
+      <li><hr></li>
+      <li>
+        <textarea name="alamat" placeholder="masukkan alamat rumah"></textarea>
+      </li>
+      <li>
+        <p>masukkan tanggal lahir</p>
+        <input type="date" name="tanggal-lahir">
+      </li>
+      <li><hr></li>
+      <li>
+        <p><input type="checkbox" name="hobi" value="bola"> Main bola</p>
+        <p><input type="checkbox" name="hobi" value="basket"> Main basket</p>
+        <p><input type="checkbox" name="hobi" value="gaming"> Gaming</p>
+      </li>
+      <li>
+        <p><input type="radio" name="simcard" value="telkomsel">Telkomsel</p>
+        <p><input type="radio" name="simcard" value="indosat">Indosat</p>
+      </li>
+      <li>
+        <p>Masukkan foto profil</p>
+        <input type="file" name="foto">
+      </li>
+    </ul>
+    <button type="submit">Simpan Data</button>
+  </form>
+  
+
+</body>
+</html>
