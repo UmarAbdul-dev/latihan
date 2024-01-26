@@ -1,0 +1,33 @@
+VCS = version control system
+
+GIT stage:
+
+  1. untracked
+  2. staged (tracked)
+  3. commit
+
+  4. finish
+
+
+  -------------------------
+  1. HTML
+  2. git
+  3. command terminal/ CMD
+
+  -------------------------
+
+  Perintah dasar git:
+  1. git clone (dari internet)
+
+  1. git init
+  2. git status
+  3. git add
+  4. git commit
+  5. git log
+
+  -------------------------
+
+  1. ls
+  2. mkdir
+  3. cd
+  4. rm
